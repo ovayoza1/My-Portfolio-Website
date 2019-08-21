@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+header{
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #D89C85;
+	padding: 20px;
+}
+
+.logo{
+	color: white;
+}
+
+
+ul{
+	margin-right: 50px;
+	list-style-type: none;
+}
+ul li{
+  display: inline-block; 
+}
+ul li a{
+	text-decoration: none;
+	color: #0B3238;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+	text-transform: uppercase;	
+}
+ul li a:hover{
+	background-color: rgba(0,0,0,0.4);
+	color: #000;
+}
+.active {
+	color: #000;
+}
+
+body{
+	height: 100%;
+}
+.top-section{
+	height: 100vh;
+	background-image: url("cocktail.png");
+	background-size: cover;
+	
+}
+.profile-img{
+	margin-top:70px;
+    width: 300px;
+    /* height: 100px; */
+    object-fit:cover;
+    border-radius:50%;
+}
+h1{
+	color:#E5E1D8;
+
+}
+#about, #skills{
+	height: 100vh;
+	color:green;
+
+}
