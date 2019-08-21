@@ -43,24 +43,27 @@ ul li a:hover{
 body{
 	height: 100%;
 }
-.top-section{
+.top-section,#projects, #contact,#home{
 	height: 100vh;
-	background-image: url("cocktail.png");
+	background-image: url("img/cocktail.png");
 	background-size: cover;
 	
+}
+.top-section, h1{
+	color: #E5E1D8;
+	
+
 }
 .profile-img{
 	margin-top:70px;
     width: 300px;
     /* height: 100px; */
     object-fit:cover;
-    border-radius:50%;
+	border-radius:50%;
+	border: 10px solid #0B3238;
 }
-h1{
-	color:#E5E1D8;
 
-}
-#about, #skills{
+#about, #contact, #projects,#skills{
 	height: 100vh;
 	color:green;
 
