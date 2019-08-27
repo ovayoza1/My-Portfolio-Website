@@ -191,14 +191,14 @@ color:#0B3238;
 
 
 	/* .social-media{ */
-    /* width: 100%; */
-    /* list-style: none; */
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    /* padding: 2rem 0; */
-    /* margin-top: 1.5rem; */
-    /* border-top: 1px solid rgba(0.0.0,.1); */
-/* } */
+    /* width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(0.0.0,.1);
+} */
 #contact{
 	/* height: 100vh; */
 	background-color: #0B3238;
@@ -206,12 +206,22 @@ color:#0B3238;
 	height: 40vh;
 	color:#fff;
 }
+
+.social-media{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(0.0.0,.1);
+}
 .social-media i{
     font-size: 3rem;
     transition: color .5s;
 }
 .fa-facebook-square{
-    color:#3b5999;
+    color:#fff;
 }
 .fa-twitter-square{
     color:#55acee;
@@ -220,7 +230,7 @@ color:#0B3238;
     color:#3b5999;
 }
 .fa-google-plus-square{
-    color:#dd4b39;
+    color:#fff;
 }
 
 .fa-facebook-square:hover,
